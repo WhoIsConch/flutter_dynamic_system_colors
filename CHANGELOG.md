@@ -1,3 +1,9 @@
+## 1.11.0
+### Changed
+- Updates the minimum supported SDK version to Flutter 3.47/Dart 3.13
+- Migrates the Android implementation to Android Gradle Plugin's built-in Kotlin support, removing the Kotlin Gradle Plugin (KGP) dependency
+- Migrates the Android Gradle configuration (plugin and example) to the declarative `plugins {}` block, as required by current Flutter tooling
+
 ## 1.9.0 - 2026-04-03
 ### Changed
 - Update `material_color_utilities` to `0.13.0`
